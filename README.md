@@ -192,7 +192,8 @@ common questions on our gitter.
 [GitHub issues](https://github.com/cvat-ai/cvat/issues): please post your have feature requests or bug reports there.
 If it's a bug, please add the steps to reproduce it.
 
-[\#cvat](https://stackoverflow.com/search?q=%23cvat) tag on StackOverflow is one more way to ask questions and get our support.
+[\#cvat](https://stackoverflow.com/search?q=%23cvat) tag on StackOverflow is one more way to ask
+questions and get our support.
 
 [contact@cvat.ai](mailto:contact+github@cvat.ai): reach out to us with feedback, comments, or inquiries.
 
