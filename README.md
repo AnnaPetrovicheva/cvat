@@ -60,7 +60,7 @@ This is an online version of CVAT. It's free, efficient, and easy to use.
 
 [cvat.ai](https://cvat.ai) runs the latest version of the tool. You can create up to 10 tasks there and upload up to 500Mb of data to annotate. It will only be visible to you or people you assign to it.
 
-For noe, it does not have the [analytics features](https://cvat-ai.github.io/cvat/docs/administration/advanced/analytics/) like management and monitoring the data annotation team.
+For now, it does not have [analytics features](https://cvat-ai.github.io/cvat/docs/administration/advanced/analytics/) like management and monitoring the data annotation team.
 
 We plan to enhance [cvat.ai](https://cvat.ai) with new powerful features. Stay tuned!
 
