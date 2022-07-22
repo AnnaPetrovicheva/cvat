@@ -182,7 +182,7 @@ report) on [GitHub issues](https://github.com/cvat-ai/cvat/issues).
 If you are not sure or just want to browse other users common questions,
 [Gitter chat](https://gitter.im/opencv-cvat) is the way to go.
 
-Another ways to ask questions and get our support is by using [\#cvat](https://stackoverflow.com/search?q=%23cvat) tag on StackOverflow.
+Another way to ask questions and get our support is by using [\#cvat](https://stackoverflow.com/search?q=%23cvat) tag on StackOverflow.
 
 ## Links
 
