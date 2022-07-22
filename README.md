@@ -32,7 +32,7 @@ Sign up to start using CVAT online for free: [cvat.ai](https://cvat.ai). Or set 
 
 ## Partners ❤️
 
-CVAT is used by many organizations all over the world. If you use us, please drop us a line at [contact@cvat.ai](mailto:contact@cvat.ai) - and we'll add you to this list.
+CVAT is used by teams all over the world. If you use us, please drop us a line at [contact@cvat.ai](mailto:contact@cvat.ai) - and we'll add you to this list.
 
 - [ATLANTIS](https://github.com/smhassanerfani/atlantis) is an open-source dataset for semantic segmentation
   of waterbody images, depevoped by [iWERS](http://ce.sc.edu/iwers/) group in the
