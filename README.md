@@ -105,26 +105,26 @@ For more information about supported formats, look at the
 
 | Annotation format                                                                                         | Import | Export |
 | --------------------------------------------------------------------------------------------------------- | ------ | ------ |
-| [CVAT for images](https://cvat-ai.github.io/cvat/docs/manual/advanced/xml_format/#annotation)     | X      | X      |
-| [CVAT for a video](https://cvat-ai.github.io/cvat/docs/manual/advanced/xml_format/#interpolation) | X      | X      |
-| [Datumaro](https://github.com/cvat-ai/datumaro)                                                   |        | X      |
-| [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)                                                     | X      | X      |
-| Segmentation masks from [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)                             | X      | X      |
-| [YOLO](https://pjreddie.com/darknet/yolo/)                                                                | X      | X      |
-| [MS COCO Object Detection](http://cocodataset.org/#format-data)                                           | X      | X      |
-| [TFrecord](https://www.tensorflow.org/tutorials/load_data/tfrecord)                                       | X      | X      |
-| [MOT](https://motchallenge.net/)                                                                          | X      | X      |
-| [LabelMe 3.0](http://labelme.csail.mit.edu/Release3.0)                                                    | X      | X      |
-| [ImageNet](http://www.image-net.org)                                                                      | X      | X      |
-| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)                                      | X      | X      |
-| [WIDER Face](http://shuoyang1213.me/WIDERFACE/)                                                           | X      | X      |
-| [VGGFace2](https://github.com/ox-vgg/vgg_face2)                                                           | X      | X      |
-| [Market-1501](https://www.aitribune.com/dataset/2018051063)                                               | X      | X      |
-| [ICDAR13/15](https://rrc.cvc.uab.es/?ch=2)                                                                | X      | X      |
-| [Open Images V6](https://storage.googleapis.com/openimages/web/index.html)                                | X      | X      |
-| [Cityscapes](https://www.cityscapes-dataset.com/login/)                                                   | X      | X      |
-| [KITTI](http://www.cvlibs.net/datasets/kitti/)                                                            | X      | X      |
-| [LFW](http://vis-www.cs.umass.edu/lfw/)                                                                   | X      | X      |
+| [CVAT for images](https://cvat-ai.github.io/cvat/docs/manual/advanced/xml_format/#annotation)     | ✔️      | ✔️      |
+| [CVAT for a video](https://cvat-ai.github.io/cvat/docs/manual/advanced/xml_format/#interpolation) | ✔️      | ✔️      |
+| [Datumaro](https://github.com/cvat-ai/datumaro)                                                   |        | ✔️      |
+| [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)                                                     | ✔️      | ✔️      |
+| Segmentation masks from [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)                             | ✔️      | ✔️      |
+| [YOLO](https://pjreddie.com/darknet/yolo/)                                                                | ✔️      | ✔️      |
+| [MS COCO Object Detection](http://cocodataset.org/#format-data)                                           | ✔️      | ✔️      |
+| [TFrecord](https://www.tensorflow.org/tutorials/load_data/tfrecord)                                       | ✔️      | ✔️      |
+| [MOT](https://motchallenge.net/)                                                                          | ✔️      | ✔️      |
+| [LabelMe 3.0](http://labelme.csail.mit.edu/Release3.0)                                                    | ✔️      | ✔️      |
+| [ImageNet](http://www.image-net.org)                                                                      | ✔️      | ✔️      |
+| [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)                                      | ✔️      | ✔️      |
+| [WIDER Face](http://shuoyang1213.me/WIDERFACE/)                                                           | ✔️      | ✔️      |
+| [VGGFace2](https://github.com/ox-vgg/vgg_face2)                                                           | ✔️      | ✔️      |
+| [Market-1501](https://www.aitribune.com/dataset/2018051063)                                               | ✔️      | ✔️      |
+| [ICDAR13/15](https://rrc.cvc.uab.es/?ch=2)                                                                | ✔️      | ✔️      |
+| [Open Images V6](https://storage.googleapis.com/openimages/web/index.html)                                | ✔️      | ✔️      |
+| [Cityscapes](https://www.cityscapes-dataset.com/login/)                                                   | ✔️      | ✔️      |
+| [KITTI](http://www.cvlibs.net/datasets/kitti/)                                                            | ✔️      | ✔️      |
+| [LFW](http://vis-www.cs.umass.edu/lfw/)                                                                   | ✔️      | ✔️      |
 
 <!--lint enable maximum-line-length-->
 
@@ -136,22 +136,22 @@ CVAT supports automatic labelling. It can speed up the annotation process up to 
 
 | Name                                                                                                    | Type       | Framework  | CPU | GPU |
 | ------------------------------------------------------------------------------------------------------- | ---------- | ---------- | --- | --- |
-| [Deep Extreme Cut](/serverless/openvino/dextr/nuclio)                                                   | interactor | OpenVINO   | X   |     |
-| [Faster RCNN](/serverless/openvino/omz/public/faster_rcnn_inception_v2_coco/nuclio)                     | detector   | OpenVINO   | X   |     |
-| [Mask RCNN](/serverless/openvino/omz/public/mask_rcnn_inception_resnet_v2_atrous_coco/nuclio)           | detector   | OpenVINO   | X   |     |
-| [YOLO v3](/serverless/openvino/omz/public/yolo-v3-tf/nuclio)                                            | detector   | OpenVINO   | X   |     |
-| [Object reidentification](/serverless/openvino/omz/intel/person-reidentification-retail-300/nuclio)     | reid       | OpenVINO   | X   |     |
-| [Semantic segmentation for ADAS](/serverless/openvino/omz/intel/semantic-segmentation-adas-0001/nuclio) | detector   | OpenVINO   | X   |     |
-| [Text detection v4](/serverless/openvino/omz/intel/text-detection-0004/nuclio)                          | detector   | OpenVINO   | X   |     |
-| [YOLO v5](/serverless/pytorch/ultralytics/yolov5/nuclio)                                                | detector   | PyTorch    | X   |     |
-| [SiamMask](/serverless/pytorch/foolwood/siammask/nuclio)                                                | tracker    | PyTorch    | X   | X   |
-| [f-BRS](/serverless/pytorch/saic-vul/fbrs/nuclio)                                                       | interactor | PyTorch    | X   |     |
-| [HRNet](/serverless/pytorch/saic-vul/hrnet/nuclio)                                                      | interactor | PyTorch    |     | X   |
-| [Inside-Outside Guidance](/serverless/pytorch/shiyinzhang/iog/nuclio)                                   | interactor | PyTorch    | X   |     |
-| [Faster RCNN](/serverless/tensorflow/faster_rcnn_inception_v2_coco/nuclio)                              | detector   | TensorFlow | X   | X   |
-| [Mask RCNN](/serverless/tensorflow/matterport/mask_rcnn/nuclio)                                         | detector   | TensorFlow | X   | X   |
-| [RetinaNet](serverless/pytorch/facebookresearch/detectron2/retinanet/nuclio)                            | detector   | PyTorch    | X   | X   |
-| [Face Detection](/serverless/openvino/omz/intel/face-detection-0205/nuclio)                             | detector   | OpenVINO   | X   |     |
+| [Deep Extreme Cut](/serverless/openvino/dextr/nuclio)                                                   | interactor | OpenVINO   | ✔️   |     |
+| [Faster RCNN](/serverless/openvino/omz/public/faster_rcnn_inception_v2_coco/nuclio)                     | detector   | OpenVINO   | ✔️   |     |
+| [Mask RCNN](/serverless/openvino/omz/public/mask_rcnn_inception_resnet_v2_atrous_coco/nuclio)           | detector   | OpenVINO   | ✔️   |     |
+| [YOLO v3](/serverless/openvino/omz/public/yolo-v3-tf/nuclio)                                            | detector   | OpenVINO   | ✔️   |     |
+| [Object reidentification](/serverless/openvino/omz/intel/person-reidentification-retail-300/nuclio)     | reid       | OpenVINO   | ✔️   |     |
+| [Semantic segmentation for ADAS](/serverless/openvino/omz/intel/semantic-segmentation-adas-0001/nuclio) | detector   | OpenVINO   | ✔️   |     |
+| [Text detection v4](/serverless/openvino/omz/intel/text-detection-0004/nuclio)                          | detector   | OpenVINO   | ✔️   |     |
+| [YOLO v5](/serverless/pytorch/ultralytics/yolov5/nuclio)                                                | detector   | PyTorch    | ✔️   |     |
+| [SiamMask](/serverless/pytorch/foolwood/siammask/nuclio)                                                | tracker    | PyTorch    | ✔️   | ✔️   |
+| [f-BRS](/serverless/pytorch/saic-vul/fbrs/nuclio)                                                       | interactor | PyTorch    | ✔️   |     |
+| [HRNet](/serverless/pytorch/saic-vul/hrnet/nuclio)                                                      | interactor | PyTorch    |     | ✔️   |
+| [Inside-Outside Guidance](/serverless/pytorch/shiyinzhang/iog/nuclio)                                   | interactor | PyTorch    | ✔️   |     |
+| [Faster RCNN](/serverless/tensorflow/faster_rcnn_inception_v2_coco/nuclio)                              | detector   | TensorFlow | ✔️   | ✔️   |
+| [Mask RCNN](/serverless/tensorflow/matterport/mask_rcnn/nuclio)                                         | detector   | TensorFlow | ✔️   | ✔️   |
+| [RetinaNet](serverless/pytorch/facebookresearch/detectron2/retinanet/nuclio)                            | detector   | PyTorch    | ✔️   | ✔️   |
+| [Face Detection](/serverless/openvino/omz/intel/face-detection-0205/nuclio)                             | detector   | OpenVINO   | ✔️   |     |
 
 <!--lint enable maximum-line-length-->
 
