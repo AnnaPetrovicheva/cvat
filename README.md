@@ -13,7 +13,7 @@ tool for computer vision. It is used by tens of thousands of users and companies
 
 **A new repo**: CVAT core team moved the active development of the tool to this new repository. Our mission is to help developers, companies and organizations around the world to solve real problems using the Data-centric AI approach.
 
-Sign up to start using CVAT online for free: [cvat.ai](https://cvat.ai). Or set it up as a self-hosted solution: [read here](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/).
+Start using CVAT online for free: [cvat.ai](https://cvat.ai). Or set it up as a self-hosted solution: [read here](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/).
 
 ![CVAT screencast](site/content/en/images/cvat-ai-screencast.gif)
 
