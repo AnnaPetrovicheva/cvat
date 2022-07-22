@@ -155,22 +155,6 @@ CVAT supports automatic labelling. It can speed up the annotation process up to 
 
 <!--lint enable maximum-line-length-->
 
-<<<<<<< HEAD
-## Online demo: [app.cvat.ai](https://app.cvat.ai)
-
-This is an online demo with the latest version of the annotation tool.
-Try it online without local installation. Only own or assigned tasks
-are visible to users.
-
-Disabled features:
-
-- [Analytics: management and monitoring of data annotation team](https://cvat-ai.github.io/cvat/docs/administration/advanced/analytics/)
-
-Limitations:
-
-- No more than 10 tasks per user
-- Uploaded data is limited to 500Mb
-
 ## License
 
 The code is released under the [MIT License](https://opensource.org/licenses/MIT).
