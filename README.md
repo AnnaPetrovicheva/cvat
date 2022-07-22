@@ -172,7 +172,7 @@ connection with your use of FFmpeg.
 ## Questions
 
 CVAT usage related questions or unclear concepts can be posted in our
-[Gitter chat](https://gitter.im/opencv-cvat) for **quick replies** from
+[Gitter chat](https://gitter.im/opencv-cvat) for quick replies from
 contributors and other users.
 
 However, if you have a feature request or a bug report that can reproduced,
