@@ -171,10 +171,7 @@ Limitations:
 - No more than 10 tasks per user
 - Uploaded data is limited to 500Mb
 
-## Prebuilt Docker images
-=======
 ## License
->>>>>>> Edited README: added logos, rephrased texts, restructured
 
 The code is released under the [MIT License](https://opensource.org/licenses/MIT).
 
