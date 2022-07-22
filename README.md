@@ -1,3 +1,4 @@
+![CVAT logo](site/content/en/images/cvat_logo_with_name.png)
 # Computer Vision Annotation Tool (CVAT)
 
 [![CI][ci-img]][ci-url]
@@ -7,19 +8,20 @@
 [![ui pulls][docker-ui-pulls-img]][docker-ui-image-url]
 [![DOI][doi-img]][doi-url]
 
-CVAT is free, online, interactive video and image annotation
-tool for computer vision. It is being used by our team to
-annotate million of objects with different properties. Many UI
-and UX decisions are based on feedbacks from professional data
-annotation team. Try it online [app.cvat.ai](https://app.cvat.ai).
+CVAT is an interactive video and image annotation
+tool for computer vision. It is used by tens of thousands of users and companies around the world. CVAT is free and open-source.
 
-![CVAT screenshot](site/content/en/images/cvat.jpg)
+**A new repo**: CVAT core team moved the active development of the tool to this new repository. Our mission is to help developers, companies and organizations around the world to solve real problems using the Data-centric AI approach.
 
-## Documentation
+Sign up to start using CVAT online for free: [cvat.ai](https://cvat.ai). Or set it up as a self-hosted solution: [read here](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/).
 
-- [Contributing](https://cvat-ai.github.io/cvat/docs/contributing/)
+![CVAT screencast](site/content/en/images/cvat-ai-screencast.gif)
+
+## Quick start ⚡
+
 - [Installation guide](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/)
 - [Manual](https://cvat-ai.github.io/cvat/docs/manual/)
+- [Contributing](https://cvat-ai.github.io/cvat/docs/contributing/)
 - [Django REST API documentation](https://cvat-ai.github.io/cvat/docs/administration/basics/rest_api_guide/)
 - [Datumaro dataset framework](https://github.com/cvat-ai/datumaro/blob/develop/README.md)
 - [Command line interface](https://cvat-ai.github.io/cvat/docs/manual/advanced/cli/)
@@ -28,7 +30,56 @@ annotation team. Try it online [app.cvat.ai](https://app.cvat.ai).
 - [Frequently asked questions](https://cvat-ai.github.io/cvat/docs/faq/)
 - [Questions](#questions)
 
-## Screencasts
+## Partners ❤️
+
+CVAT is used by many organizations all over the world. If you use us, please drop us a line at [contact@cvat.ai](mailto:contact@cvat.ai) - and we'll add you to this list.
+
+- [ATLANTIS](https://github.com/smhassanerfani/atlantis) is an open-source dataset for semantic segmentation
+  of waterbody images, depevoped by [iWERS](http://ce.sc.edu/iwers/) group in the
+  Department of Civil and Environmental Engineering at University of South Carolina, is using CVAT.
+  For developing a semantic segmentation dataset using CVAT, please check
+  [ATLANTIS published article](https://www.sciencedirect.com/science/article/pii/S1364815222000391),
+  [ATLANTIS Development Kit](https://github.com/smhassanerfani/atlantis/tree/master/adk)
+  and [annotation tutorial videos](https://www.youtube.com/playlist?list=PLIfLGY-zZChS5trt7Lc3MfNhab7OWl2BR).
+- [Onepanel](https://github.com/onepanelio/core) is an open source
+  vision AI platform that fully integrates CVAT with scalable data processing
+  and parallelized training pipelines.
+- [DataIsKey](https://dataiskey.eu/annotation-tool/) uses CVAT as their prime data labeling tool
+  to offer annotation services for projects of any size.
+- [Human Protocol](https://hmt.ai) uses CVAT as a way of adding annotation service to the human protocol.
+- [Cogito Tech LLC](https://bit.ly/3klT0h6), a Human-in-the-Loop Workforce Solutions Provider, used CVAT
+  in annotation of about 5,000 images for a brand operating in the fashion segment.
+- [FiftyOne](https://fiftyone.ai) is an open-source dataset curation and model analysis
+tool for visualizing, exploring, and improving computer vision datasets and models that is
+[tightly integrated](https://voxel51.com/docs/fiftyone/integrations/cvat.html) with CVAT
+for annotation and label refinement.
+
+## CVAT online: [cvat.ai](https://cvat.ai)
+
+This is an online version of CVAT. It's free, efficient, and easy to use.
+
+[cvat.ai](https://cvat.ai) runs the latest version of the tool. You can create up to 10 tasks there and upload up to 500Mb of data to annotate. It will only be visible to you or people you assign to it.
+
+For noe, it does not have the [analytics features](https://cvat-ai.github.io/cvat/docs/administration/advanced/analytics/) like management and monitoring the data annotation team.
+
+We plan to enhance [cvat.ai](https://cvat.ai) with new powerful features. Stay tuned!
+
+## Prebuilt Docker images 🐳
+
+Prebuilt docker images are the easiest way to start using CVAT locally. They are available on Docker Hub:
+
+- [cvat/server](https://hub.docker.com/r/cvat/server)
+- [cvat/ui](https://hub.docker.com/r/cvat/ui)
+
+The images have been downloaded more than 1M times so far.
+
+## REST API
+
+CVAT has a REST API. Its current version is `2.0-alpha`. We focus on its improvement and therefore REST API may be changed in the next release.
+
+## Screencasts 🎦
+
+Here are some screencasts showing how to use CVAT.
 
 - [Introduction](https://youtu.be/JERohTFp-NI)
 - [Annotation mode](https://youtu.be/vH_639N67HI)
@@ -42,12 +93,12 @@ annotation team. Try it online [app.cvat.ai](https://app.cvat.ai).
 
 ## Supported annotation formats
 
-Format selection is possible after clicking on the Upload annotation and Dump
-annotation buttons. [Datumaro](https://github.com/cvat-ai/datumaro)
+CVAT supports multiple annotation formats. You can select the format after clicking the "Upload annotation" and "Dump
+annotation" buttons. [Datumaro](https://github.com/cvat-ai/datumaro)
 dataset framework allows additional dataset transformations via its command
 line tool and Python library.
 
-For more information about supported formats look at the
+For more information about supported formats, look at the
 [documentation](https://cvat-ai.github.io/cvat/docs/manual/advanced/formats/).
 
 <!--lint disable maximum-line-length-->
@@ -79,6 +130,8 @@ For more information about supported formats look at the
 
 ## Deep learning serverless functions for automatic labeling
 
+CVAT supports automatic labelling. It can speed up the annotation process up to 10x. Here is a list of the algorithms we support, and the platforms thay can be ran on:
+
 <!--lint disable maximum-line-length-->
 
 | Name                                                                                                    | Type       | Framework  | CPU | GPU |
@@ -102,6 +155,7 @@ For more information about supported formats look at the
 
 <!--lint enable maximum-line-length-->
 
+<<<<<<< HEAD
 ## Online demo: [app.cvat.ai](https://app.cvat.ai)
 
 This is an online demo with the latest version of the annotation tool.
@@ -118,19 +172,11 @@ Limitations:
 - Uploaded data is limited to 500Mb
 
 ## Prebuilt Docker images
+=======
+## License
+>>>>>>> Edited README: added logos, rephrased texts, restructured
 
-Prebuilt docker images for CVAT releases are available on Docker Hub:
-
-- [cvat/server](https://hub.docker.com/r/cvat/server)
-- [cvat/ui](https://hub.docker.com/r/cvat/ui)
-
-## REST API
-The current REST API version is `2.0-alpha`. We focus on its improvement and therefore
-REST API may be changed in the next release.
-
-## LICENSE
-
-Code released under the [MIT License](https://opensource.org/licenses/MIT).
+The code is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 This software uses LGPL licensed libraries from the [FFmpeg](https://www.ffmpeg.org) project.
 The exact steps on how FFmpeg was configured and compiled can be found in the [Dockerfile](Dockerfile).
@@ -142,28 +188,6 @@ additional licenses. CVAT.ai is not responsible for obtaining any
 such licenses, nor liable for any licensing fees due in
 connection with your use of FFmpeg.
 
-## Partners
-
-- [ATLANTIS](https://github.com/smhassanerfani/atlantis) is an open-source dataset for semantic segmentation
-  of waterbody images, depevoped by [iWERS](http://ce.sc.edu/iwers/) group in the
-  Department of Civil and Environmental Engineering at University of South Carolina, using CVAT.
-  For developing a semantic segmentation dataset using CVAT, please check
-  [ATLANTIS published article](https://www.sciencedirect.com/science/article/pii/S1364815222000391),
-  [ATLANTIS Development Kit](https://github.com/smhassanerfani/atlantis/tree/master/adk)
-  and [annotation tutorial videos](https://www.youtube.com/playlist?list=PLIfLGY-zZChS5trt7Lc3MfNhab7OWl2BR).
-- [Onepanel](https://github.com/onepanelio/core) is an open source
-  vision AI platform that fully integrates CVAT with scalable data processing
-  and parallelized training pipelines.
-- [DataIsKey](https://dataiskey.eu/annotation-tool/) uses CVAT as their prime data labeling tool
-  to offer annotation services for projects of any size.
-- [Human Protocol](https://hmt.ai) uses CVAT as a way of adding annotation service to the human protocol.
-- [Cogito Tech LLC](https://bit.ly/3klT0h6), a Human-in-the-Loop Workforce Solutions Provider, used CVAT
-  in annotation of about 5,000 images for a brand operating in the fashion segment.
-- [FiftyOne](https://fiftyone.ai) is an open-source dataset curation and model analysis
-tool for visualizing, exploring, and improving computer vision datasets and models that is
-[tightly integrated](https://voxel51.com/docs/fiftyone/integrations/cvat.html) with CVAT
-for annotation and label refinement.
-
 ## Questions
 
 CVAT usage related questions or unclear concepts can be posted in our
@@ -172,7 +196,7 @@ contributors and other users.
 
 However, if you have a feature request or a bug report that can reproduced,
 feel free to open an issue (with steps to reproduce the bug if it's a bug
-report) on [GitHub\* issues](https://github.com/opencv/cvat/issues).
+report) on [GitHub\* issues](https://github.com/cvat-ai/cvat/issues).
 
 If you are not sure or just want to browse other users common questions,
 [Gitter chat](https://gitter.im/opencv-cvat) is the way to go.
