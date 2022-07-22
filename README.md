@@ -1,4 +1,4 @@
-![CVAT logo](site/content/en/images/cvat_logo_with_name.png)
+![CVAT logo](site/content/en/images/cvat_poster_with_name.png)
 # Computer Vision Annotation Tool (CVAT)
 
 [![CI][ci-img]][ci-url]
