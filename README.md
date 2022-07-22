@@ -62,7 +62,7 @@ Prebuilt docker images are the easiest way to start using CVAT locally. They are
 
 The images have been downloaded more than 1M times so far.
 
-## How to use
+## Documentation
 
 - [Installation guide](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/)
 - [Manual](https://cvat-ai.github.io/cvat/docs/manual/)
