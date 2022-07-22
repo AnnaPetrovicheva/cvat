@@ -29,6 +29,7 @@ Start using CVAT online for free: [cvat.ai](https://cvat.ai). Or set it up as a 
 - [Installation guide](https://cvat-ai.github.io/cvat/docs/administration/basics/installation/)
 - [Manual](https://cvat-ai.github.io/cvat/docs/manual/)
 - [Contributing](https://cvat-ai.github.io/cvat/docs/contributing/)
+- [Django REST API documentation](https://cvat-ai.github.io/cvat/docs/administration/basics/rest_api_guide/)
 - [Datumaro dataset framework](https://github.com/cvat-ai/datumaro/blob/develop/README.md)
 - [Command line interface](https://cvat-ai.github.io/cvat/docs/manual/advanced/cli/)
 - [XML annotation format](https://cvat-ai.github.io/cvat/docs/manual/advanced/xml_format/)
