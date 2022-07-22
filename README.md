@@ -186,7 +186,8 @@ connection with your use of FFmpeg.
 ## Where to ask questions
 
 [Gitter chat](https://gitter.im/opencv-cvat): you can post CVAT usage related there.
-Typically they get answered fast by the core team or community. You can also browse other users common questions on our gitter.
+Typically they get answered fast by the core team or community. You can also browse other users
+common questions on our gitter.
 
 [GitHub issues](https://github.com/cvat-ai/cvat/issues): please post your have feature requests or bug reports there.
 If it's a bug, please add the steps to reproduce it.
