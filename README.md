@@ -1,6 +1,8 @@
 ![CVAT logo](site/content/en/images/cvat_poster_with_name.png)
 # Computer Vision Annotation Tool (CVAT)
 
+<a href="https://www.producthunt.com/posts/cvat-computer-vision-annotation-tool?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cvat&#0045;computer&#0045;vision&#0045;annotation&#0045;tool" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=353415&theme=light" alt="CVAT&#0032;–&#0032;Computer&#0032;Vision&#0032;Annotation&#0032;Tool - The&#0032;open&#0032;data&#0032;annotation&#0032;platform&#0032;for&#0032;AI | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 [![CI][ci-img]][ci-url]
 [![Gitter chat][gitter-img]][gitter-url]
 [![Coverage Status][coverage-img]][coverage-url]
